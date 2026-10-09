@@ -15,7 +15,7 @@ C++・DirectX 11で制作した、全3ステージの3Dアクションゲーム�
 | ジャンル | 3Dアクションゲーム |
 | 開発言語・描画API | C++ / DirectX 11 |
 | 開発環境 | Visual Studio 2022 / MSVC v143 / Windows SDK |
-| 完成版の実行環境 | Windows(64bit)、DirectX 11対応のグラフィックス環境 |
+| 実行環境 | Windows(64bit)、DirectX 11対応のグラフィックス環境 |
 | 構成 | 全3ステージ、1人プレイ |
 
 ## ゲームのコンセプト
