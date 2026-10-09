@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="フレームワーク">
+      <UniqueIdentifier>{7390e43b-a3ab-47ce-a03b-6a3e3b696403}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ゲーム">
+      <UniqueIdentifier>{755fcc64-6497-4dcd-847d-6e26c7e7698b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ゲーム\ギミック">
+      <UniqueIdentifier>{8cd4909c-07d1-4c8f-9ba9-7b9b949692b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="フレームワーク\コンポーネント">
+      <UniqueIdentifier>{53065349-ff23-4112-94ff-cb513e893e7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ゲーム\シーン">
+      <UniqueIdentifier>{cc3d9a2d-5caf-423b-bc87-c55656dd04a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="シェーダー">
+      <UniqueIdentifier>{d73fe691-85c0-4898-b7f4-48d0d9a39304}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="フレームワーク\ステージエディター">
+      <UniqueIdentifier>{8bd07f38-23e3-4ec8-a28b-ce4ec1a8a8da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ゲーム\キャラクター">
+      <UniqueIdentifier>{ee609adb-a215-453a-9f5c-c4fee8f059c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ゲーム\アイテム">
+      <UniqueIdentifier>{60daf291-2df4-4b70-9b62-2f141ab1c6e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ゲーム\UI">
+      <UniqueIdentifier>{dbf8e2d3-8a8b-4239-827f-61b62cd5bd37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ゲーム\ステージオブジェクト">
+      <UniqueIdentifier>{44037164-1ce7-493e-a1d1-04225efc9435}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ゲーム\演出">
+      <UniqueIdentifier>{ab30a4a0-8eb1-467b-8261-51a6dd344973}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="フレームワーク\描画">
+      <UniqueIdentifier>{ebdba1a2-a891-4a2d-b549-5e96eaabf430}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="フレームワーク\音声">
+      <UniqueIdentifier>{47057304-65de-4a95-b5bd-6b62df110dbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="外部ライブラリ">
+      <UniqueIdentifier>{3304e6ed-6333-4ef7-8b35-0c4c7f11a49d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="外部ライブラリ\ImGui">
+      <UniqueIdentifier>{d5a9d25b-c7d8-49dd-b877-31720324d5fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="外部ライブラリ\ImGuizmo">
+      <UniqueIdentifier>{9fe13e33-5b3e-4f84-ae34-e1b408910610}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="外部ライブラリ\nlohmann JSON">
+      <UniqueIdentifier>{b4c0caf5-f360-4ab8-9655-9669b7ba4873}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース">
+      <UniqueIdentifier>{58f7b720-8a6d-4fce-8a92-e0cf37c51c64}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="breakPlatform.cpp">
+      <Filter>ゲーム\ギミック</Filter>
+    </ClCompile>
+    <ClCompile Include="checkpoint.cpp">
+      <Filter>ゲーム\ギミック</Filter>
+    </ClCompile>
+    <ClCompile Include="spike.cpp">
+      <Filter>ゲーム\ギミック</Filter>
+    </ClCompile>
+    <ClCompile Include="rotatingBar.cpp">
+      <Filter>ゲーム\ギミック</Filter>
+    </ClCompile>
+    <ClCompile Include="movingPlatform.cpp">
+      <Filter>ゲーム\ギミック</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>フレームワーク</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer.cpp">
+      <Filter>フレームワーク\描画</Filter>
+    </ClCompile>
+    <ClCompile Include="modelRenderer.cpp">
+      <Filter>フレームワーク\描画</Filter>
+    </ClCompile>
+    <ClCompile Include="modelRendererComponent.cpp">
+      <Filter>フレームワーク\コンポーネント</Filter>
+    </ClCompile>
+    <ClCompile Include="numberRendererComponent.cpp">
+      <Filter>フレームワーク\コンポーネント</Filter>
+    </ClCompile>
+    <ClCompile Include="obbColliderComponent.cpp">
+      <Filter>フレームワーク\コンポーネント</Filter>
+    </ClCompile>
+    <ClCompile Include="polygonRendererComponent.cpp">
+      <Filter>フレームワーク\コンポーネント</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>ゲーム\キャラクター</Filter>
+    </ClCompile>
+    <ClCompile Include="playerAnimation.cpp">
+      <Filter>ゲーム\キャラクター</Filter>
+    </ClCompile>
+    <ClCompile Include="displayCharacter.cpp">
+      <Filter>ゲーム\キャラクター</Filter>
+    </ClCompile>
+    <ClCompile Include="playerCollision.cpp">
+      <Filter>ゲーム\キャラクター</Filter>
+    </ClCompile>
+    <ClCompile Include="playerMovement.cpp">
+      <Filter>ゲーム\キャラクター</Filter>
+    </ClCompile>
+    <ClCompile Include="playerRespawn.cpp">
+      <Filter>ゲーム\キャラクター</Filter>
+    </ClCompile>
+    <ClCompile Include="star.cpp">
+      <Filter>ゲーム\アイテム</Filter>
+    </ClCompile>
+    <ClCompile Include="wind.cpp">
+      <Filter>ゲーム\ギミック</Filter>
+    </ClCompile>
+    <ClCompile Include="windRendererComponent.cpp">
+      <Filter>フレームワーク\コンポーネント</Filter>
+    </ClCompile>
+    <ClCompile Include="jumpPad.cpp">
+      <Filter>ゲーム\ギミック</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>フレームワーク</Filter>
+    </ClCompile>
+    <ClCompile Include="manager.cpp">
+      <Filter>フレームワーク</Filter>
+    </ClCompile>
+    <ClCompile Include="pauseManager.cpp">
+      <Filter>ゲーム\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="scene.cpp">
+      <Filter>フレームワーク</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>フレームワーク\描画</Filter>
+    </ClCompile>
+    <ClCompile Include="audio.cpp">
+      <Filter>フレームワーク\音声</Filter>
+    </ClCompile>
+    <ClCompile Include="audioManager.cpp">
+      <Filter>フレームワーク\音声</Filter>
+    </ClCompile>
+    <ClCompile Include="animationModel.cpp">
+      <Filter>フレームワーク\描画</Filter>
+    </ClCompile>
+    <ClCompile Include="turret.cpp">
+      <Filter>ゲーム\ギミック</Filter>
+    </ClCompile>
+    <ClCompile Include="polygon2D.cpp">
+      <Filter>フレームワーク\描画</Filter>
+    </ClCompile>
+    <ClCompile Include="box.cpp">
+      <Filter>ゲーム\ステージオブジェクト</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet.cpp">
+      <Filter>ゲーム\ギミック</Filter>
+    </ClCompile>
+    <ClCompile Include="shadow.cpp">
+      <Filter>ゲーム\演出</Filter>
+    </ClCompile>
+    <ClCompile Include="sky.cpp">
+      <Filter>ゲーム\演出</Filter>
+    </ClCompile>
+    <ClCompile Include="life.cpp">
+      <Filter>ゲーム\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>ゲーム</Filter>
+    </ClCompile>
+    <ClCompile Include="effectManager.cpp">
+      <Filter>ゲーム\演出</Filter>
+    </ClCompile>
+    <ClCompile Include="effectSprite.cpp">
+      <Filter>ゲーム\演出</Filter>
+    </ClCompile>
+    <ClCompile Include="gate.cpp">
+      <Filter>ゲーム\ギミック</Filter>
+    </ClCompile>
+    <ClCompile Include="gateRequirementDisplay.cpp">
+      <Filter>ゲーム\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="gateRequirementNotice.cpp">
+      <Filter>ゲーム\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="goal.cpp">
+      <Filter>ゲーム\ギミック</Filter>
+    </ClCompile>
+    <ClCompile Include="heart.cpp">
+      <Filter>ゲーム\アイテム</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>フレームワーク</Filter>
+    </ClCompile>
+    <ClCompile Include="debugScene.cpp">
+      <Filter>ゲーム\シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="stage1.cpp">
+      <Filter>ゲーム\シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="stage2.cpp">
+      <Filter>ゲーム\シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="stage3.cpp">
+      <Filter>ゲーム\シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="stageSelect.cpp">
+      <Filter>ゲーム\シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="stageBase.cpp">
+      <Filter>ゲーム\シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="title.cpp">
+      <Filter>ゲーム\シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="clear.cpp">
+      <Filter>ゲーム\シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="gameOver.cpp">
+      <Filter>ゲーム\シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="starCounter.cpp">
+      <Filter>ゲーム\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="terrainBlock.cpp">
+      <Filter>ゲーム\ステージオブジェクト</Filter>
+    </ClCompile>
+    <ClCompile Include="stageDataSerializer.cpp">
+      <Filter>フレームワーク\ステージエディター</Filter>
+    </ClCompile>
+    <ClCompile Include="stageEditor.cpp">
+      <Filter>フレームワーク\ステージエディター</Filter>
+    </ClCompile>
+    <ClCompile Include="stageObjectCatalog.cpp">
+      <Filter>フレームワーク\ステージエディター</Filter>
+    </ClCompile>
+    <ClCompile Include="stageObjectFactory.cpp">
+      <Filter>フレームワーク\ステージエディター</Filter>
+    </ClCompile>
+    <ClCompile Include="stageProp.cpp">
+      <Filter>ゲーム\ステージオブジェクト</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="breakPlatform.h">
+      <Filter>ゲーム\ギミック</Filter>
+    </ClInclude>
+    <ClInclude Include="checkpoint.h">
+      <Filter>ゲーム\ギミック</Filter>
+    </ClInclude>
+    <ClInclude Include="spike.h">
+      <Filter>ゲーム\ギミック</Filter>
+    </ClInclude>
+    <ClInclude Include="rotatingBar.h">
+      <Filter>ゲーム\ギミック</Filter>
+    </ClInclude>
+    <ClInclude Include="movingPlatform.h">
+      <Filter>ゲーム\ギミック</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>フレームワーク</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer.h">
+      <Filter>フレームワーク\描画</Filter>
+    </ClInclude>
+    <ClInclude Include="turret.h">
+      <Filter>ゲーム\ギミック</Filter>
+    </ClInclude>
+    <ClInclude Include="modelRenderer.h">
+      <Filter>フレームワーク\描画</Filter>
+    </ClInclude>
+    <ClInclude Include="modelRendererComponent.h">
+      <Filter>フレームワーク\コンポーネント</Filter>
+    </ClInclude>
+    <ClInclude Include="numberRendererComponent.h">
+      <Filter>フレームワーク\コンポーネント</Filter>
+    </ClInclude>
+    <ClInclude Include="obbColliderComponent.h">
+      <Filter>フレームワーク\コンポーネント</Filter>
+    </ClInclude>
+    <ClInclude Include="objectComponent.h">
+      <Filter>フレームワーク\コンポーネント</Filter>
+    </ClInclude>
+    <ClInclude Include="polygonRendererComponent.h">
+      <Filter>フレームワーク\コンポーネント</Filter>
+    </ClInclude>
+    <ClInclude Include="transformComponent.h">
+      <Filter>フレームワーク\コンポーネント</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>ゲーム\キャラクター</Filter>
+    </ClInclude>
+    <ClInclude Include="displayCharacter.h">
+      <Filter>ゲーム\キャラクター</Filter>
+    </ClInclude>
+    <ClInclude Include="star.h">
+      <Filter>ゲーム\アイテム</Filter>
+    </ClInclude>
+    <ClInclude Include="wind.h">
+      <Filter>ゲーム\ギミック</Filter>
+    </ClInclude>
+    <ClInclude Include="windRendererComponent.h">
+      <Filter>フレームワーク\コンポーネント</Filter>
+    </ClInclude>
+    <ClInclude Include="jumpPad.h">
+      <Filter>ゲーム\ギミック</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>フレームワーク</Filter>
+    </ClInclude>
+    <ClInclude Include="manager.h">
+      <Filter>フレームワーク</Filter>
+    </ClInclude>
+    <ClInclude Include="pauseManager.h">
+      <Filter>ゲーム\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>フレームワーク</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>フレームワーク\描画</Filter>
+    </ClInclude>
+    <ClInclude Include="audio.h">
+      <Filter>フレームワーク\音声</Filter>
+    </ClInclude>
+    <ClInclude Include="audioManager.h">
+      <Filter>フレームワーク\音声</Filter>
+    </ClInclude>
+    <ClInclude Include="animationModel.h">
+      <Filter>フレームワーク\描画</Filter>
+    </ClInclude>
+    <ClInclude Include="gameObject.h">
+      <Filter>フレームワーク</Filter>
+    </ClInclude>
+    <ClInclude Include="polygon2D.h">
+      <Filter>フレームワーク\描画</Filter>
+    </ClInclude>
+    <ClInclude Include="box.h">
+      <Filter>ゲーム\ステージオブジェクト</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet.h">
+      <Filter>ゲーム\ギミック</Filter>
+    </ClInclude>
+    <ClInclude Include="shadow.h">
+      <Filter>ゲーム\演出</Filter>
+    </ClInclude>
+    <ClInclude Include="vector3.h">
+      <Filter>フレームワーク</Filter>
+    </ClInclude>
+    <ClInclude Include="sky.h">
+      <Filter>ゲーム\演出</Filter>
+    </ClInclude>
+    <ClInclude Include="life.h">
+      <Filter>ゲーム\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>ゲーム</Filter>
+    </ClInclude>
+    <ClInclude Include="effectManager.h">
+      <Filter>ゲーム\演出</Filter>
+    </ClInclude>
+    <ClInclude Include="effectSprite.h">
+      <Filter>ゲーム\演出</Filter>
+    </ClInclude>
+    <ClInclude Include="gate.h">
+      <Filter>ゲーム\ギミック</Filter>
+    </ClInclude>
+    <ClInclude Include="gateRequirementDisplay.h">
+      <Filter>ゲーム\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="gateRequirementNotice.h">
+      <Filter>ゲーム\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="goal.h">
+      <Filter>ゲーム\ギミック</Filter>
+    </ClInclude>
+    <ClInclude Include="heart.h">
+      <Filter>ゲーム\アイテム</Filter>
+    </ClInclude>
+    <ClInclude Include="debugScene.h">
+      <Filter>ゲーム\シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="stage1.h">
+      <Filter>ゲーム\シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="stage2.h">
+      <Filter>ゲーム\シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="stage3.h">
+      <Filter>ゲーム\シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="stageId.h">
+      <Filter>ゲーム\シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="stageSelect.h">
+      <Filter>ゲーム\シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="stageBase.h">
+      <Filter>ゲーム\シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="title.h">
+      <Filter>ゲーム\シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="clear.h">
+      <Filter>ゲーム\シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="gameOver.h">
+      <Filter>ゲーム\シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="starCounter.h">
+      <Filter>ゲーム\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="terrainBlock.h">
+      <Filter>ゲーム\ステージオブジェクト</Filter>
+    </ClInclude>
+    <ClInclude Include="stageDataSerializer.h">
+      <Filter>フレームワーク\ステージエディター</Filter>
+    </ClInclude>
+    <ClInclude Include="stageEditor.h">
+      <Filter>フレームワーク\ステージエディター</Filter>
+    </ClInclude>
+    <ClInclude Include="stageObjectCatalog.h">
+      <Filter>フレームワーク\ステージエディター</Filter>
+    </ClInclude>
+    <ClInclude Include="stageObjectData.h">
+      <Filter>フレームワーク\ステージエディター</Filter>
+    </ClInclude>
+    <ClInclude Include="stageObjectFactory.h">
+      <Filter>フレームワーク\ステージエディター</Filter>
+    </ClInclude>
+    <ClInclude Include="stageProp.h">
+      <Filter>ゲーム\ステージオブジェクト</Filter>
+    </ClInclude>
+    <ClInclude Include="external\nlohmann\json.hpp">
+      <Filter>外部ライブラリ\nlohmann JSON</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="shader\unlitTexturePS.hlsl">
+      <Filter>シェーダー</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\unlitTextureVS.hlsl">
+      <Filter>シェーダー</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\common.hlsl">
+      <Filter>シェーダー</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\vertexLightingPS.hlsl">
+      <Filter>シェーダー</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\vertexLightingVS.hlsl">
+      <Filter>シェーダー</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\tiledBoxVS.hlsl">
+      <Filter>シェーダー</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\windPS.hlsl">
+      <Filter>シェーダー</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\windVS.hlsl">
+      <Filter>シェーダー</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="imguiManager.cpp">
+      <Filter>フレームワーク</Filter>
+    </ClCompile>
+    <ClCompile Include="external\imguizmo\ImGuizmo.cpp">
+      <Filter>外部ライブラリ\ImGuizmo</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>外部ライブラリ\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_demo.cpp">
+      <Filter>外部ライブラリ\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>外部ライブラリ\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_tables.cpp">
+      <Filter>外部ライブラリ\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>外部ライブラリ\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\backends\imgui_impl_dx11.cpp">
+      <Filter>外部ライブラリ\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\backends\imgui_impl_win32.cpp">
+      <Filter>外部ライブラリ\ImGui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="imguiManager.h">
+      <Filter>フレームワーク</Filter>
+    </ClInclude>
+    <ClInclude Include="external\imguizmo\ImGuizmo.h">
+      <Filter>外部ライブラリ\ImGuizmo</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>外部ライブラリ\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>外部ライブラリ\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>外部ライブラリ\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_rectpack.h">
+      <Filter>外部ライブラリ\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_textedit.h">
+      <Filter>外部ライブラリ\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_truetype.h">
+      <Filter>外部ライブラリ\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\backends\imgui_impl_dx11.h">
+      <Filter>外部ライブラリ\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\backends\imgui_impl_win32.h">
+      <Filter>外部ライブラリ\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>リソース</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resource\collision_run_icon.png">
+      <Filter>リソース</Filter>
+    </None>
+    <None Include="imgui\LICENSE.txt">
+      <Filter>外部ライブラリ\ImGui</Filter>
+    </None>
+    <None Include="external\imguizmo\LICENSE">
+      <Filter>外部ライブラリ\ImGuizmo</Filter>
+    </None>
+    <None Include="external\nlohmann\LICENSE.MIT">
+      <Filter>外部ライブラリ\nlohmann JSON</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resource\collision_run.ico">
+      <Filter>リソース</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="collisionRun.rc">
+      <Filter>リソース</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

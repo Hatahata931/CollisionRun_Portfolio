@@ -1,0 +1,36 @@
+こりじょんらん！ 使用素材・クレジット
+
+【BGM】
+甘茶の音楽工房
+OpenTracks(旧DOVA-SYNDROME)
+
+【効果音】
+効果音ラボ
+効果音工房
+フリー効果音素材 くらげ工匠
+Springin' Sound Stock
+Kenney
+
+【キャラクター】
+ユニティちゃん
+© Unity Technologies Japan/UCL
+
+【3Dモデル・素材】
+Kenney
+
+Futuristic Sci-Fi Laser Barrier
+作者：Charles Smith (Blitz Mobile Apps)
+配布元：Sketchfab
+モデルURL：https://sketchfab.com/3d-models/futuristic-sci-fi-laser-barrier-cc22080d871f4dd5b1c16d4228e25a37
+ライセンス：Creative Commons Attribution 4.0 International (CC BY 4.0)
+ライセンスURL：https://creativecommons.org/licenses/by/4.0/
+本作品向けに形式変換、法線およびマテリアルの調整を行っています。
+
+【外部ライブラリ】
+Dear ImGui
+ImGuizmo
+JSON for Modern C++ (nlohmann/json)
+DirectXTex
+Assimp
+
+各素材および外部ライブラリは、それぞれの利用規約・ライセンスに基づいて使用しています。
